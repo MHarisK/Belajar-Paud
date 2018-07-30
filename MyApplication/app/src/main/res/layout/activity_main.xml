@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menu">
+
+        <TextView
+        android:id="@+id/selamatdatang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_gravity="center"
+        android:text="SELAMAT DATANG DI PEMBELAJARAN PAUD"
+        android:textSize="30dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+
+        >
+    <Button
+        android:id="@+id/btnhuruf"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="MENGENAL HURUF"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundetcorners"
+
+        />
+
+    <Button
+        android:id="@+id/btnhitung"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="MENGHITUNG"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundetcorners"
+        />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnmembaca"
+        android:layout_margin="10dp"
+        android:text="BELAJAR MEMBACA"
+        android:background="@drawable/roundetcorners"
+        android:layout_toRightOf="@+id/btnhitung"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnmengenalhewan"
+        android:text="MENGENAL HEWAN"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundetcorners"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quiz"
+            android:background="@drawable/roundetcorners"
+            />
+    </LinearLayout>
+</LinearLayout>

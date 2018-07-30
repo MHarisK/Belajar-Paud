@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menhitung"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/gambarangka"
+        android:layout_width="110dp"
+        android:layout_margin="10dp"
+        android:layout_height="103dp"
+        android:layout_gravity="center"
+        android:src="@drawable/iak"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    >
+    <ImageButton
+        android:id="@+id/satu"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:layout_margin="10dp"
+        android:src="@drawable/one"
+       />
+
+    <ImageButton
+        android:id="@+id/dua"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:layout_margin="10dp"
+        android:src="@drawable/two"
+        />
+
+    <ImageButton
+        android:id="@+id/tiga"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/three"
+        android:layout_margin="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/empat"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/four"
+        android:layout_margin="10dp"
+        />
+    <ImageButton
+        android:id="@+id/lima"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/five"
+        android:layout_margin="10dp"
+        />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <ImageButton
+            android:id="@+id/enam"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:layout_margin="10dp"
+            android:src="@drawable/six"
+            />
+
+        <ImageButton
+            android:id="@+id/tujuh"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:layout_margin="10dp"
+            android:src="@drawable/seven"
+            />
+
+        <ImageButton
+            android:id="@+id/delapan"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/eight"
+            android:layout_margin="10dp"
+            />
+
+        <ImageButton
+            android:id="@+id/sembilan"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/nine"
+            android:layout_margin="10dp"
+            />
+        <ImageButton
+            android:id="@+id/sepuluh"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ten"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

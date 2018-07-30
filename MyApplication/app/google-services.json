@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "908398494176",
+    "firebase_url": "https://belajar-a9572.firebaseio.com",
+    "project_id": "belajar-a9572",
+    "storage_bucket": "belajar-a9572.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908398494176:android:25894f8e03f6075c",
+        "android_client_info": {
+          "package_name": "com.example.asus.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908398494176-amfqrnrb38ri112ee5i7c1ho02ve3cru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.myapplication",
+            "certificate_hash": "b73e4cec7b59836b40b90cbaabc4736b9224da2c"
+          }
+        },
+        {
+          "client_id": "908398494176-prm0mijolsbcpeuing8s4de0rg121dl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWnAX0xYLKCgrriuNv-ShglcEhuGnSvb4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908398494176-prm0mijolsbcpeuing8s4de0rg121dl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
